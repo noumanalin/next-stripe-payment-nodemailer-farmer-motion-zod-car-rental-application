@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { navLinks } from '@/contants/appData.js';
+import { navLinks } from '@/utils/appData.js';
 import { usePathname } from 'next/navigation';
 
 const Header = () => {
