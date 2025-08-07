@@ -1,4 +1,5 @@
 import Explore from '@/components/Explore'
+import FooterBanner from '@/components/FooterBanner'
 import HeroCarousel from '@/components/HeroCarousel ' 
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <main>
       <HeroCarousel/>
       <Explore/>
+      <FooterBanner/>
     </main>
   )
 }

@@ -21,7 +21,7 @@ const HeroCarousel = () => {
             <CarouselItem
               key={index}
               style={{ backgroundImage: `url(${item.img})` }}
-              className="w-full h-full bg-cover bg-center pt-5 bg-no-repeat relative pointer-events-none"
+              className="w-full h-full bg-cover bg-center pt-5 bg-no-repeat relative "
               role="group"
               aria-roledescription="slide"
               aria-label={`Slide ${index + 1}`}
@@ -49,11 +49,10 @@ const HeroCarousel = () => {
           ))}
         </CarouselContent>
 
-        {/* Optional: Show next/prev buttons only on desktop */}
-        <div className="hidden md:flex">
-          <CarouselPrevious />
-          <CarouselNext />
-        </div>
+        <CarouselPrevious  className="bg-red-600 text-white p-4 z-50 absolute left-4 top-1/2 -translate-y-1/2" />
+<CarouselNext className="bg-blue-600 text-white p-4 z-50 absolute right-4 top-1/2 -translate-y-1/2" />
+
+
       </Carousel>
     </section>
   );
