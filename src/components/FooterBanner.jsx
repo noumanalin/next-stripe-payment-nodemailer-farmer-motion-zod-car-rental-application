@@ -7,7 +7,7 @@ const FooterBanner = () => {
   return (
     <section
       aria-label="Footer Information Banner"
-      className="w-full grid grid-cols-1 md:grid-cols-2 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] overflow-hidden"
+      className="w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden"
     >
       {/* Banner Image */}
       <Image

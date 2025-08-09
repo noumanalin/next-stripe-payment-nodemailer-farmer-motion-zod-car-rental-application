@@ -1,6 +1,7 @@
 import Explore from '@/components/Explore'
 import FooterBanner from '@/components/FooterBanner'
 import HeroCarousel from '@/components/HeroCarousel ' 
+import OurObjective from '@/components/OurObjective'
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <HeroCarousel/>
       <Explore/>
       <FooterBanner/>
+      <OurObjective/>
     </main>
   )
 }
